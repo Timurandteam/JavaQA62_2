@@ -8,15 +8,13 @@ public class Main {
         System.out.println("Сумма пополнения :" + s);
         if (s > 1050) {
             System.out.println("Сумма бонусов :" + i);
-        }
-        else {
+        } else {
             System.out.println("Сумма бонусов :" + 0);
         }
         int a = x + s + i;
         if (s > 1050) {
             System.out.println("Итого :" + a);
-        }
-        else {
+        } else {
             System.out.println("Итого :" + (x + s));
         }
     }
