@@ -11,9 +11,9 @@ public class Main {
         } else {
             System.out.println("Сумма бонусов :" + 0);
         }
-        int a = balance + score + i;
+        int account = balance + score + i;
         if (score > 1050) {
-            System.out.println("Итого :" + a);
+            System.out.println("Итого :" + account);
         } else {
             System.out.println("Итого :" + (balance + score));
         }
